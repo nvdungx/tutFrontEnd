@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'bookman';
+    src: url("fonts/BOOKOS.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  color: #5D6063;               /* Dark gray */
+  background-color: #F9FAFB;/*#FFFFFF;    Light gray*/
+  font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "bookman", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+a {
+  /* text-decoration: none; */
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
