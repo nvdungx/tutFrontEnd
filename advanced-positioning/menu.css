@@ -17,6 +17,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
+  /* hover link */
   text-decoration: underline;
 }
 
@@ -28,6 +29,7 @@ a:hover {
   width: 100%;
   padding: 50px;
   background: #D6E9FE;
+  border: solid 1px red;
 }
 
 .menu {
@@ -37,6 +39,7 @@ a:hover {
 .menu > li {
   display: inline;
   margin-right: 50px;
+  border: solid 1px red;
 }
 
 .menu > li:last-of-type {
@@ -49,40 +52,27 @@ a:hover {
   background: #B2D6FF;
   border-radius: 5px;
   padding-top: 60px;
+  border: solid 1px red;
 
   position: absolute;      /* Add these */
-  top: -25px;
-  left: -30px;
+  top: -15px;
+  right: -30px;
 }
-.dropdown {
-  position: relative;
-}
-.dropdown > span {
-  z-index: 2;
-  position: relative;  /* This is important! */
-  cursor: pointer;
-}
-.dropdown:hover .features-menu {    /* This used to be `.features-menu` */
-  display: flex;                    /* Leave everything else alone */
-  flex-direction: column;
-  background: #B2D6FF;
-  /* ... */
-}
-.features-menu {                    /* Add this as a new rule */
-  display: none;
-}
-.features-menu {
-  /* ... */
-  z-index: 1;
-}
+
 .features-menu li {
   list-style: none;
+  /* bottom under line of select text */
   border-bottom: 1px solid #FFF;
 
   padding: 0 40px 10px 20px;
   margin: 10px;
+  border: solid 1px red;
 }
 
 .features-menu li:last-of-type {
   border-bottom: none;
+}
+
+.dropdown {
+  position: relative;
 }
